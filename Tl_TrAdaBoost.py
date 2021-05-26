@@ -16,7 +16,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 
-root_path = "I:/PytorchSave/data/IDS/"
+root_path = "./data/IDS/"
 DDoS = "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
 Bot = "Friday-WorkingHours-Morning.pcap_ISCX.csv"
 Bot_test = "Friday-WorkingHours-Morning.pcap_ISCX.csv"
