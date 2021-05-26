@@ -19,7 +19,7 @@ import numpy as np
 root_path = "./data/IDS/"
 DDoS = "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
 Bot = "Friday-WorkingHours-Morning.pcap_ISCX.csv"
-Bot_test = "Friday-WorkingHours-Morning.pcap_ISCX.csv"
+Bot_test = "Bot_test.csv"
 Port = 'Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv'
 
 
@@ -47,7 +47,7 @@ train_df = pd.DataFrame(pd.read_csv(root_path + DDoS))
 train_df.fillna(value=0, inplace=True)
 train_df1 = pd.DataFrame(pd.read_csv(root_path + Bot))
 train_df1.fillna(value=0, inplace=True)
-test_df = pd.DataFrame(pd.read_csv(root_path + Port))
+test_df = pd.DataFrame(pd.read_csv(root_path + Bot_test))
 train_df.fillna(value=0, inplace=True)
 
 train_data_T = train_df.values
