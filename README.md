@@ -8,3 +8,4 @@ Compare with another transfer learning algorithm TCA(transfer component analysis
 
 ![](https://github.com/LaplaceZhang/tradaboost/blob/master/ROC%20Curve%20for%20TCA.png)
 
+Extend interests: federated learning
